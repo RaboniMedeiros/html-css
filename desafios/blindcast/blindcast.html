@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: #084170;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            width: 180px;
+            text-align: center;
+        }
+
+        th {
+            background-color: black;
+        }
+
+        tr {
+            background-color: #0b518a;
+        }
+
+        tr:nth-child(even) {
+            background-color: #084170;
+        }
+
+        div#container {
+            margin: auto;
+            padding-top: 70px;
+        }
+
+        div#espaco {
+            height: 180px;
+        }
+
+        img {
+            width: 90px;
+            padding: 10px;
+            border-radius: 90px;
+        }
+
+        img.baixo {
+            width: 35px;
+            border-radius: 35px;
+        }
+
+        td.vazio {
+            height: 100px;
+        }
+
+        .baka {
+            background-color: #d1be02;
+            color: black;
+        }
+
+        .coco {
+            background-color: #0096cf;
+            color: black;
+        }
+
+        .vesi {
+            background-color: #e73e43;
+            color: black;
+        }
+
+        .eliminado {
+            background-color: darkgray;
+            color: black;
+        }
+
+        .pb {
+            filter: grayscale(1);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <thead>
+                <tr>
+                    <th><img src="imagens/guto.jpg" alt=""><br>Guto</th>
+                    <th><img src="imagens/isa.jpg" alt=""><br>Isabela</th>
+                    <th><img src="imagens/raboni.jpg" alt=""><br>Raboni</th>
+                    <th><img src="imagens/danilo.jpg" alt=""><br>Danilo</th>
+                    <th><img src="imagens/pat.jpg" alt=""><br>Pat</th>
+                    <th><img src="imagens/rhuan.jpg" alt=""><br>Rhuan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="coco"><img src="imagens/geo.png" alt=""><br>Geo</td>
+                    <td class="eliminado"><img class="pb" src="imagens/morriah.png" alt=""><br>Morriah</td>
+                    <td class="vesi"><img src="imagens/jesse.png" alt=""><br>Jesse</td>
+                    <td class="baka"><img src="imagens/owen.png" alt=""><br>Owen</td>
+                    <td class="coco"><img src="imagens/cassidy.png" alt=""><br>Cassidy</td>
+                    <td class="vesi"><img src="imagens/cody.png" alt=""><br>Cody</td>
+                </tr>
+                <tr>
+                    <td class="eliminado"><img class="pb" src="imagens/justine.png" alt=""><br>Justine</td>
+                    <td class="vesi"><img src="imagens/noelle.png" alt=""><br>Noelle</td>
+                    <td class="vesi"><img src="imagens/nneka.png" alt=""><br>Nneka</td>
+                    <td class="coco"><img src="imagens/karla.png" alt=""><br>Karla</td>
+                    <td class="baka"><img src="imagens/sami.png" alt=""><br>Sami</td>
+                    <td class="baka"><img src="imagens/elie.png" alt=""><br>Elie</td>
+                </tr>
+                <tr>
+                    <td class="coco"><img src="imagens/ryan.png" alt=""><br>Ryan</td>
+                    <td class="coco"><img src="imagens/james.png" alt=""><br>James</td>
+                    <td class="vesi"><img src="imagens/dwight.png" alt=""><br>Dwight</td>
+                    <td class="coco"><img src="imagens/lindsay.png" alt=""><br>Lindsay</td>
+                    <td class="baka"><img src="imagens/jeanine.png" alt=""><br>Jeanine</td>
+                    <td class="baka"><img src="imagens/gabler.png" alt=""><br>Gabler</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
